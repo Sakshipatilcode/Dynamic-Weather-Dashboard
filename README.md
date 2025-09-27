@@ -24,5 +24,6 @@ An interactive weather dashboard that provides real-time weather updates and a 5
 ## 🚀 Deployment
 The project is hosted with *GitHub Pages* for free and easy access.  
 
-- 📂 *GitHub Repository (Code):* [https://github.com/sakshipatilcode/weather-dashboard](https://github.com/sakshipatilcode/weather-dashboard)  
-- 🌍 *Live Demo (GitHub Pages):* [https://sakshipatilcode.github.io/weather-dashboard/](https://sakshipatilcode.github.io/weather-dashboard/) 
+- 📂 *GitHub Repository (Code):* [https://github.com/Sakshipatilcode/weather-dashboard](https://github.com/Sakshipatilcode/weather-dashboard)  
+- 🌍 *Live Demo (GitHub Pages):* [https://Sakshipatilcode.github.io/weather-dashboard/](https://Sakshipatilcode.github.io/weather-dashboard/) 
+
