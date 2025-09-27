@@ -1,0 +1,147 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.8s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  max-width: 450px;
+  width: 90%;
+  z-index: 2;
+  position: relative;
+}
+
+/* Heading */
+.container h1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  outline: none;
+  width: 70%;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff8c42;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background: #e6762f;
+}
+
+/* Weather Card (Glassmorphism) */
+.weather-card {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.temp {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Extra info flexbox */
+.extra-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Forecast Section */
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: nowrap;
+}
+
+.forecast-card {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  min-width: 100px;
+  color: white;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.forecast-card:hover {
+  transform: translateY(-5px);
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 1.5rem;
+  }
+  .temp {
+    font-size: 1.8rem;
+  }
+  .extra-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
