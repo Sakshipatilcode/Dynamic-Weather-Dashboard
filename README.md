@@ -3,7 +3,7 @@
 An interactive weather dashboard that provides real-time weather updates and a 5-day forecast using *OpenWeatherMap API*.
 
 
-# Features
+# *Features"
 - Search weather by city 
 - Real-time updates 
 - 5-day forecast 
@@ -11,14 +11,14 @@ An interactive weather dashboard that provides real-time weather updates and a 5
 - Dynamic UI with glassmorphism
 
 
-##Technology 
+# *Technology* 
 - HTML5
 - CSS3 
 - JavaScript (ES6)
 - OpenWeatherMap API
 
 
-#Deployment
+# *Deployment"
 The project is hosted with *GitHub Pages* for free and easy access.  
 
 - *GitHub Repository (Code):* [https://github.com/Sakshipatilcode/Dynamic-Weather-Dashboard](https://github.com/Sakshipatilcode/Dynamic-Weather-Dashboard)  
