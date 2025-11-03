@@ -11,7 +11,7 @@ An interactive weather dashboard that provides real-time weather updates and a 5
 - Dynamic UI with glassmorphism
 
 
-#Technology 
+##Technology 
 - HTML5
 - CSS3 
 - JavaScript (ES6)
