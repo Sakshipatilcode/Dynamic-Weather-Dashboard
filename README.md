@@ -18,7 +18,7 @@ An interactive weather dashboard that provides real-time weather updates and a 5
 - OpenWeatherMap API
 
 
-# *Deployment"
+# *Deployment*
 The project is hosted with *GitHub Pages* for free and easy access.  
 
 - *GitHub Repository (Code):* [https://github.com/Sakshipatilcode/Dynamic-Weather-Dashboard](https://github.com/Sakshipatilcode/Dynamic-Weather-Dashboard)  
